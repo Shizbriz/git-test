@@ -1,0 +1,177 @@
+.head{
+    background-image: url(../back.svg);
+    background-repeat: no-repeat;
+    min-height: 700px;
+}
+.begin{
+    padding-top: 50px;
+}
+.left{
+    align-content: left;
+}
+
+.trip{
+    color: white;
+}
+.guard{
+    color: #74e6ef;
+}
+.links{
+    position: absolute;
+    left: 10em;
+}
+.links a{
+    padding-left: 30px;
+    color: white;
+}
+.signbtn{
+    width: 150px;
+    height: 45px;
+    border: 1px solid #232d67;
+    border-radius: 25px;
+}
+h1{
+    color: white;
+    font-weight: 500;
+    font-size: 45px;
+    padding: 100px 0 20px 0;
+}
+.stuff1 p{
+    color: white;
+}
+.stuff{
+    display: flex;
+    justify-content: space-between;
+}
+.stuff1{
+    width: 30%;
+}
+.stuff2{
+    margin-top: 80px;
+    background-color: white;
+    box-shadow: grey 4px 4px 10px;
+    border-radius: 2px;
+}
+.stuff2 p{
+color: #232d67;
+margin: 0;
+padding: 0;
+font-weight: 500;
+}
+h4, h2{
+    color: #232d67;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+form{
+    padding: 50px 100px 40px 100px;
+   
+}
+.forma{
+    margin-right: 30px;
+}
+.quotebtn{
+    width: 200px;
+    height: 45px;
+    background-color: rgb(255, 99, 71);
+    border-radius: 25px;
+    border: 0;
+}
+.qbt{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.easy{
+    padding: 100px 20px 100px 20px;   
+    margin-top: 50px;
+}
+.steps{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+}
+.step{
+    width: 180px;
+    text-align: center;
+    font-weight: 500;
+    font-size: smaller;
+}
+.why{
+    display: flex;
+    margin-bottom: 100px;
+    
+}
+.clicks{
+justify-content: flex-start;
+width: 370px;
+display: grid;
+margin-right: 100px;
+}
+.why p{
+    margin: 0;
+    color: #232d67;
+    font-size: smaller;
+}
+.click h5{
+    color: #232d67;
+    font-weight: 700;
+}
+.click{
+    display: flex;
+    border: 1px solid rgb(128, 128, 128, 0.3);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+.click-icon{
+    margin-right: 10px;
+}
+.talks{
+width: 500px;
+margin-top: 50px;
+}
+.talks h3, .talks p{
+    color: #232d67;
+    margin-bottom: 30px;
+}
+.talks-button{
+    background-color: turquoise;
+    border-radius: 50%;
+    border: 0;
+    width: 100px;
+    height: 100px;
+}
+.talks-button span{
+    color: white;
+}
+.pic{
+    position: absolute;
+    right: 0;
+    top: 1060px;
+}
+.compare{
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    max-width: 510px;
+    
+}
+.left h2{
+    text-align: left;
+    padding-bottom: 20px;
+}
+.left .wahala{
+    margin: 50px 0 50px 0;
+    padding-left: 50px;
+    border-left: 1px solid black;
+}
+.tbt{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
