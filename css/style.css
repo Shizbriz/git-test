@@ -6,9 +6,6 @@
 .begin{
     padding-top: 50px;
 }
-.left{
-    align-content: left;
-}
 
 .trip{
     color: white;
@@ -16,9 +13,12 @@
 .guard{
     color: #74e6ef;
 }
-.links{
-    position: absolute;
-    left: 10em;
+.dropdown{
+    display: none;
+}
+.menu{
+    display: inline-flex;
+    justify-content: space-between;
 }
 .links a{
     padding-left: 30px;
@@ -125,6 +125,7 @@ margin-right: 100px;
     margin: 0;
     color: #232d67;
     font-size: smaller;
+    font-weight: 500;
 }
 .click h5{
     color: #232d67;
@@ -137,9 +138,19 @@ margin-right: 100px;
     margin-bottom: 20px;
     border-radius: 8px;
 }
-
+.click:hover{
+    background-color: #232d67;
+}
+.click:hover > .click-message h5, .click:hover > .click-message p{
+    color: white;
+}
 .click-icon{
     margin-right: 10px;
+}
+.why-pic{
+    background-image: url(../right.svg);
+    width: 600px;
+    background-repeat: no-repeat;
 }
 .talks{
 width: 500px;
@@ -186,21 +197,24 @@ margin-top: 50px;
     justify-content: center;
     margin-top: 40px;
 }
+.right{
+    background-image: url(../3072835-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: 300px 520px;
+    background-position-x: center;
+    height: 550px;
+    width: 550px;
+}
 .first{
     box-shadow: grey -1px 1px 5px;
     background-color: rgb(245, 245, 245, 0.7);
     padding: 10px;
-    position: absolute;
-    right: 300px;
-    top: 1720px;
+   margin-top: 60px;
     border-radius: 10px;
     height: 100px;
     width: 330px;
 }
 
-.phone{
-    margin-left: 150px;
-}
 .out{
     display: flex;
     justify-content: space-between;
@@ -213,21 +227,17 @@ margin-top: 50px;
 }
 .second{
     background-color: white;
-    border-radius: 40px;
-    box-shadow: grey 1px 1px 3px;
-    position: absolute;
-    right: 226px;
-    top: 1840px;
-    width: 225px;
-    height: 320px;
-    
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    box-shadow: grey 1px -1px 3px;
+    margin-left:158px;
+    width: 250px;
+    height: 170px;  
 }
-
 .re{
     display: flex;
     justify-content: space-between;
     background-color: rgb(128, 128, 128, 0.1);
-    
     margin-top: 10px;
     padding: 5px 0 5px 0;
 }
@@ -240,10 +250,8 @@ margin-top: 50px;
     padding: 10px;
     border-radius: 10px;
     height: 100px;
-    position: absolute;
-    right: 50px;
-    top: 2030px;
     width: 330px;
+    margin: 20px 0 0 200px;
 }
 .policy{
     display: flex;
@@ -266,7 +274,7 @@ box-shadow: grey 1px -1px 5px;
     margin-top: 0;
 }
 .how .card-body{
-    max-width: 400px;
+    width: 400px;
 }
 .top .card-body{
     max-width: 250px;
@@ -335,4 +343,23 @@ justify-content: space-between;
 }
 .attribute{
     margin-left: 200px;
+}
+@media screen and (max-width: 800px){
+    .menu{display: none;}
+    .dropdown{display: block;}
+    .icon, .icon:hover{color: white;}
+    .dropdown-menu a{ color: #232d67;}
+    .dropdown-menu a:hover{background-color: rgb(128, 128, 128, 0.5);}
+    .dropdown-menu{left: -80px;}
+    .stuff{display: grid;}
+    .stuff1{width: auto;}
+    .why{display: grid;}
+    .clicks{margin: auto;}
+   .compare{display: grid;}
+   .left{margin-bottom: 100px;}
+   .policy{display: grid; justify-items: center;}
+  .card-body{margin-bottom: 50px;}
+  .news{margin-top: 50px;}
+  .foot-work{display: grid;}
+  .foot-pic{width: auto; background-size: auto;}
 }
